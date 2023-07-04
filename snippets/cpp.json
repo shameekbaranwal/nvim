@@ -1,0 +1,20 @@
+{
+  "##": {
+    "prefix": "##",
+    "body": [
+      "#include<bits/stdc++.h>",
+      "using namespace std;\n",
+      "int main() {",
+      "\t${0:// your code here}",
+      "",
+      "}"
+    ],
+    "description": "Boilerplate for DSA problems"
+  },
+
+  "abc": {
+    "prefix": "abc",
+    "body": "hello",
+    "description": "test"
+  }
+}

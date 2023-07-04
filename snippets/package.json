@@ -1,0 +1,15 @@
+{
+  "name": "random-snippets",
+  "author": "shmk",
+  "contributes": {
+    "snippets": [
+      {
+        "language": [
+          "cc",
+          "cpp"
+        ],
+        "path": "./cpp.json"
+      }
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+-- local neodev = require 'neodev'
+-- local mason_lspconfig = require 'mason-lspconfig'
+-- local servers = require 'custom.configs.servers'
+-- local lspconfig = require("lspconfig")
+--
+-- local on_attach = require("plugins.configs.lspconfig").on_attach
+-- local capabilities = require("plugins.configs.lspconfig").capabilities
+-- -- nvim-cmp supports additional completion capabilities, so broadcast that to servers
+-- capabilities = require('cmp_nvim_lsp').default_capabilities(capabilities)
+--
+-- mason_lspconfig.setup()
+-- neodev.setup()
+--
+-- mason_lspconfig.setup_handlers {
+--   function(server_name)
+--     lspconfig[server_name].setup {
+--       capabilities = capabilities,
+--       on_attach = on_attach,
+--       settings = servers[server_name] or {},
+--     }
+--   end,
+-- }
+--
